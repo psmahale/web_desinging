@@ -164,15 +164,26 @@ header nav:hover > a:not(:hover) {
     gap: 10px;
 }
 
+footer p {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+  color: white;
+  margin: 0;
+}
+
 footer a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:not([href="#"]) {
+  text-decoration: underline;
 }
 
 footer a:hover {
-    color: #7a7adb;
-    text-decoration: underline;
+  color: #7a7adb;
+  text-decoration: underline;
 }
     
