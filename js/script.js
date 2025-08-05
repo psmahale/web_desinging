@@ -18,3 +18,9 @@ document.addEventListener('scroll', function() {
     mount1.style.marginBottom = -value * 1.1 + 'px'
     mount2.style.marginBottom = -value * 1.2 + 'px'
 })
+
+// Add smooth scroll behavior
+document.addEventListener('DOMContentLoaded', function() {
+    // Ensure smooth scrolling is enabled
+    document.documentElement.style.scrollBehavior = 'smooth'
+})
